@@ -5,9 +5,9 @@ function App () {
 
   return (
     <div className='App'>
-      <div> Hi Matt...</div>
+      <div>Hi.</div>
       <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/IdoBzFCXqXM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        src="https://www.youtube.com/embed/IdoBzFCXqXM?autoplay=1&mute=1&cc_load_policy=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <video width="560" height="315" muted autoPlay loop controls id="full-screenVideo" >
         <source src={video} />
       </video>
